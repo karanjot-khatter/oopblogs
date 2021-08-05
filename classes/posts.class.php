@@ -19,7 +19,19 @@ class Posts extends Dbh {
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute([$title, $body, $author]);
 
-        header("location: {$_SERVER['HTTP_REFERER']}");
+    }
 
+    public function editPost($id){
+        $sql = "SELECT * FROM posts where id = ?";
+        $stmt = $this->connect()->prepare($sql);
+        $stmt->execute([$id]);
+        $result = $stmt->fetch();
+        return $result;
+    }
+
+    public function updatePost($title, $body, $author, $id){
+        $sql = "UPDATE posts SET title = ?, body = ? , author = ? WHERE id = ?";
+        $stmt = $this->connect()->prepare($sql);
+        $stmt->execute([$title, $body, $author, $id]);
     }
 }

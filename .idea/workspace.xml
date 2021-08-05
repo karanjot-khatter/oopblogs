@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbbc15aa-4c15-476f-a5c1-39f5e537d6a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/post.process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/posts.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/posts.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post.process.php" beforeDir="false" afterPath="$PROJECT_DIR$/post.process.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627990822774</updated>
       <workItem from="1627990824294" duration="6176000" />
-      <workItem from="1628172226361" duration="1376000" />
+      <workItem from="1628172226361" duration="4178000" />
     </task>
     <task id="LOCAL-00001" summary="Established pdo connection and created card based on records in db.">
       <created>1628001919567</created>
@@ -55,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628001919568</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="The ability to add a new post.">
+      <created>1628173682800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628173682800</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,6 +71,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Established pdo connection and created card based on records in db." />
-    <option name="LAST_COMMIT_MESSAGE" value="Established pdo connection and created card based on records in db." />
+    <MESSAGE value="The ability to add a new post." />
+    <option name="LAST_COMMIT_MESSAGE" value="The ability to add a new post." />
   </component>
 </project>

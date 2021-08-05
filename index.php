@@ -29,7 +29,7 @@ require_once('./templates/header.php');
                     </div>
                     <div class="form-group">
                         <label>Content: </label>
-                        <input class="form-control" name="post-content" type="text" required>
+                        <textarea class="form-control" name="post-content" type="text" required></textarea>
                     </div>
                     <div class="form-group">
                         <label>Author: </label>
@@ -57,8 +57,8 @@ require_once('./templates/header.php');
                         <h5 class="card-title"><?php echo $post['title']?></h5>
                         <p class="card-text"><?php echo $post['body']?></p>
                         <h6 style="margin-bottom:10px;" class="card-subtitle text-muted text-end"><?php echo $post['author']?></h6>
-                        <button class="btn btn-warning">Edit</button>
-                        <button class="btn btn-danger">Delete</button>
+                        <a href="editForm.php?id=<?php echo $post['id']?>" class="btn btn-warning">Edit</a>
+                        <a href="post.process.php?id=<?php echo $post['id'] ?>" class="btn btn-danger">Delete</a>
                     </div>
                 </div>
             </div>
