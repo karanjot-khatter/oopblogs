@@ -23,4 +23,11 @@ if (isset($_POST['submit']))
     $post->updatePost($title, $body, $author, $id);
 
     echo "<script>window.location.href = 'index.php'</script>";
+
+} elseif ($_GET['send'] === 'del'){
+    $id = $_GET['id'];
+
+    $post->deletePost($id);
+
+    header("location: {$_SERVER['HTTP_REFERER']}");
 }

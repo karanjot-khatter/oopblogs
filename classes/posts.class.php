@@ -34,4 +34,12 @@ class Posts extends Dbh {
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute([$title, $body, $author, $id]);
     }
+
+    public function deletePost($id)
+    {
+        $sql = "DELETE FROM posts where Id = ?";
+        $stmt = $this->connect()->prepare($sql);
+        $stmt->execute([$id]);
+
+    }
 }

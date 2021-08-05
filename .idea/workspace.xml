@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbbc15aa-4c15-476f-a5c1-39f5e537d6a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/editForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/posts.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/posts.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
@@ -47,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627990822774</updated>
       <workItem from="1627990824294" duration="6176000" />
-      <workItem from="1628172226361" duration="4178000" />
+      <workItem from="1628172226361" duration="5205000" />
     </task>
     <task id="LOCAL-00001" summary="Established pdo connection and created card based on records in db.">
       <created>1628001919567</created>
@@ -63,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628173682800</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Able to now update the post information.">
+      <created>1628176585951</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628176585951</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,6 +78,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Established pdo connection and created card based on records in db." />
     <MESSAGE value="The ability to add a new post." />
-    <option name="LAST_COMMIT_MESSAGE" value="The ability to add a new post." />
+    <MESSAGE value="Able to now update the post information." />
+    <option name="LAST_COMMIT_MESSAGE" value="Able to now update the post information." />
   </component>
 </project>
