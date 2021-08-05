@@ -22,7 +22,7 @@ require_once('./templates/header.php');
             </div>
             <div class="modal-body">
                 <!-- Form input -->
-                <form action="">
+                <form action="post.process.php" method="POST">
                     <div class="form-group">
                         <label>Title: </label>
                         <input class="form-control" name="post-title" type="text" required>
@@ -38,7 +38,7 @@ require_once('./templates/header.php');
 
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Add Post</button>
+                        <button type="submit" name="submit" class="btn btn-primary">Add Post</button>
                     </div>
 
                 </form>
@@ -51,7 +51,7 @@ require_once('./templates/header.php');
     <?php $posts = new Posts();?>
     <?php if ($posts->getPost()):?>
         <?php foreach ($posts->getPost() as $post):?>
-            <div class="col-md-6">
+            <div class="col-md-6 mt-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $post['title']?></h5>
